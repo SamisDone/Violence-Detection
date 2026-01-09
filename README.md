@@ -32,17 +32,23 @@ Uses the [UCF-Crime Dataset](https://www.kaggle.com/datasets/odins0n/ucf-crime-d
 
 ## Quick Start
 
-### Run on Kaggle
+### Option 1: Run on Kaggle (Recommended)
 
-1. Open `AnomLite_Multiclass_Clean.ipynb` in Kaggle
-2. Add the UCF-Crime dataset to your notebook
-3. Run all cells
+1. Open a new Kaggle notebook
+2. Add the [UCF-Crime Dataset](https://www.kaggle.com/datasets/odins0n/ucf-crime-dataset) to your notebook
+3. Upload `AnomLite_Multiclass_Clean.ipynb`
+4. Run all cells - paths are auto-detected
 
-### Run Locally
+### Option 2: Run Locally
 
 1. Clone this repository
-2. Download the dataset and update paths in the notebook
-3. Run with Jupyter Notebook
+2. Download the dataset (~11 GB):
+   ```bash
+   pip install kaggle
+   kaggle datasets download -d odins0n/ucf-crime-dataset --unzip
+   ```
+3. Place `Train/` and `Test/` folders in the project directory
+4. Run with Jupyter Notebook
 
 ## Requirements
 

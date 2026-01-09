@@ -2,6 +2,10 @@
 *.ipynb
 !AnomLite_Multiclass_Clean.ipynb
 
+# Dataset (download from Kaggle - ~11GB)
+Train/
+Test/
+
 # Python
 __pycache__/
 *.py[cod]
